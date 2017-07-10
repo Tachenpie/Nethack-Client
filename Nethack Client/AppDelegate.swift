@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Nethack Client
+//  Nethack Client 1
 //
-//  Created by Noah Dowd on 7/10/17.
+//  Created by Noah Dowd on 7/6/17.
 //  Copyright © 2017 Eigengrau. All rights reserved.
 //
 

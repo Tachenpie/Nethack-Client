@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0CC0FD1F141D91003BFC67 /* LocalVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0EF1F141D91003BFC67 /* LocalVariants.swift */; };
+		4F0CC0FE1F141D91003BFC67 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F01F141D91003BFC67 /* GameVC.swift */; };
+		4F0CC0FF1F141D91003BFC67 /* ConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F11F141D91003BFC67 /* ConnectionVC.swift */; };
+		4F0CC1001F141D91003BFC67 /* SSHConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F21F141D91003BFC67 /* SSHConnection.swift */; };
+		4F0CC1011F141D91003BFC67 /* Bookmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F31F141D91003BFC67 /* Bookmarks.swift */; };
+		4F0CC1021F141D91003BFC67 /* BookmarkEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F41F141D91003BFC67 /* BookmarkEntry.swift */; };
+		4F0CC1041F141D91003BFC67 /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F61F141D91003BFC67 /* NSBundle.swift */; };
+		4F0CC1051F141D91003BFC67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F71F141D91003BFC67 /* Constants.swift */; };
+		4F0CC1061F141D91003BFC67 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F81F141D91003BFC67 /* BookmarkCell.swift */; };
+		4F0CC1071F141D91003BFC67 /* BookmarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F91F141D91003BFC67 /* BookmarkCell.xib */; };
+		4F0CC1081F141D91003BFC67 /* LocalVariantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0FA1F141D91003BFC67 /* LocalVariantsCell.swift */; };
+		4F0CC1091F141D91003BFC67 /* LocalGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0CC0FB1F141D91003BFC67 /* LocalGameCell.xib */; };
+		4F0CC10A1F141D91003BFC67 /* LocalGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0FC1F141D91003BFC67 /* LocalGameCell.swift */; };
 		4FD53C471F141CBF001BA267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD53C461F141CBF001BA267 /* AppDelegate.swift */; };
 		4FD53C491F141CBF001BA267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD53C481F141CBF001BA267 /* ViewController.swift */; };
 		4FD53C4B1F141CBF001BA267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD53C4A1F141CBF001BA267 /* Assets.xcassets */; };
@@ -14,6 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0CC0EF1F141D91003BFC67 /* LocalVariants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalVariants.swift; sourceTree = "<group>"; };
+		4F0CC0F01F141D91003BFC67 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		4F0CC0F11F141D91003BFC67 /* ConnectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionVC.swift; sourceTree = "<group>"; };
+		4F0CC0F21F141D91003BFC67 /* SSHConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHConnection.swift; sourceTree = "<group>"; };
+		4F0CC0F31F141D91003BFC67 /* Bookmarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookmarks.swift; sourceTree = "<group>"; };
+		4F0CC0F41F141D91003BFC67 /* BookmarkEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkEntry.swift; sourceTree = "<group>"; };
+		4F0CC0F61F141D91003BFC67 /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
+		4F0CC0F71F141D91003BFC67 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F0CC0F81F141D91003BFC67 /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
+		4F0CC0F91F141D91003BFC67 /* BookmarkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarkCell.xib; sourceTree = "<group>"; };
+		4F0CC0FA1F141D91003BFC67 /* LocalVariantsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalVariantsCell.swift; sourceTree = "<group>"; };
+		4F0CC0FB1F141D91003BFC67 /* LocalGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalGameCell.xib; sourceTree = "<group>"; };
+		4F0CC0FC1F141D91003BFC67 /* LocalGameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalGameCell.swift; sourceTree = "<group>"; };
 		4FD53C431F141CBF001BA267 /* Nethack Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nethack Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD53C461F141CBF001BA267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD53C481F141CBF001BA267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +59,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0CC0E71F141D1E003BFC67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F0CC0F81F141D91003BFC67 /* BookmarkCell.swift */,
+				4F0CC0FC1F141D91003BFC67 /* LocalGameCell.swift */,
+				4F0CC0FA1F141D91003BFC67 /* LocalVariantsCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4F0CC0E91F141D2E003BFC67 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4F0CC0F71F141D91003BFC67 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		4F0CC0EA1F141D61003BFC67 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F0CC0F21F141D91003BFC67 /* SSHConnection.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4F0CC0EB1F141D65003BFC67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F0CC0F41F141D91003BFC67 /* BookmarkEntry.swift */,
+				4F0CC0F31F141D91003BFC67 /* Bookmarks.swift */,
+				4F0CC0EF1F141D91003BFC67 /* LocalVariants.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4F0CC0EC1F141D71003BFC67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F0CC0F11F141D91003BFC67 /* ConnectionVC.swift */,
+				4F0CC0F01F141D91003BFC67 /* GameVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4F0CC0ED1F141D76003BFC67 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				4F0CC0F91F141D91003BFC67 /* BookmarkCell.xib */,
+				4F0CC0FB1F141D91003BFC67 /* LocalGameCell.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		4F0CC0EE1F141D7F003BFC67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F0CC0F61F141D91003BFC67 /* NSBundle.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		4FD53C3A1F141CBF001BA267 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +140,13 @@
 		4FD53C451F141CBF001BA267 /* Nethack Client */ = {
 			isa = PBXGroup;
 			children = (
+				4F0CC0EE1F141D7F003BFC67 /* Extensions */,
+				4F0CC0ED1F141D76003BFC67 /* Xibs */,
+				4F0CC0EC1F141D71003BFC67 /* Controllers */,
+				4F0CC0EB1F141D65003BFC67 /* Models */,
+				4F0CC0EA1F141D61003BFC67 /* Services */,
+				4F0CC0E91F141D2E003BFC67 /* Utilities */,
+				4F0CC0E71F141D1E003BFC67 /* Views */,
 				4FD53C461F141CBF001BA267 /* AppDelegate.swift */,
 				4FD53C481F141CBF001BA267 /* ViewController.swift */,
 				4FD53C4A1F141CBF001BA267 /* Assets.xcassets */,
@@ -121,8 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0CC1091F141D91003BFC67 /* LocalGameCell.xib in Resources */,
 				4FD53C4B1F141CBF001BA267 /* Assets.xcassets in Resources */,
 				4FD53C4E1F141CBF001BA267 /* Main.storyboard in Resources */,
+				4F0CC1071F141D91003BFC67 /* BookmarkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +231,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD53C491F141CBF001BA267 /* ViewController.swift in Sources */,
+				4F0CC1011F141D91003BFC67 /* Bookmarks.swift in Sources */,
+				4F0CC0FD1F141D91003BFC67 /* LocalVariants.swift in Sources */,
+				4F0CC0FE1F141D91003BFC67 /* GameVC.swift in Sources */,
 				4FD53C471F141CBF001BA267 /* AppDelegate.swift in Sources */,
+				4F0CC1081F141D91003BFC67 /* LocalVariantsCell.swift in Sources */,
+				4F0CC1051F141D91003BFC67 /* Constants.swift in Sources */,
+				4F0CC1001F141D91003BFC67 /* SSHConnection.swift in Sources */,
+				4F0CC10A1F141D91003BFC67 /* LocalGameCell.swift in Sources */,
+				4F0CC1041F141D91003BFC67 /* NSBundle.swift in Sources */,
+				4F0CC1061F141D91003BFC67 /* BookmarkCell.swift in Sources */,
+				4F0CC1021F141D91003BFC67 /* BookmarkEntry.swift in Sources */,
+				4F0CC0FF1F141D91003BFC67 /* ConnectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +399,7 @@
 				4FD53C541F141CBF001BA267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
