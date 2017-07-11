@@ -11,10 +11,10 @@ public extension Bundle {
 	- returns: dictionary of values
 	*/
 	public static func contentsOfFile(plistName: String, bundle: Bundle? = nil) -> [String : AnyObject] {
-		let fileParts = plistName.componentsSeparatedByString(".")
+		let fileParts = plistName.components(separatedBy: ".")
 		
 		guard fileParts.count == 2,
-			let resourcePath = (bundle ?? Bundle.mainBundle()).pathForResource(fileParts[0], ofType: fileParts[1]),
+			let resourcePath = (bundle ?? Bundle.main).path(forResource: fileParts[0], ofType: fileParts[1]),
 			let contents = NSDictionary(contentsOfFile: resourcePath) as? [String : AnyObject]
 			else { return [:] }
 		
@@ -31,7 +31,8 @@ public extension Bundle {
 	*/
 	public static func contentsOfFile(bundleURL: NSURL, plistName: String = "Root.plist") -> [String : AnyObject] {
 		// Extract plist file from bundle
-		guard let contents = NSDictionary(contentsOfURL: bundleURL.URLByAppendingPathComponent(plistName))
+		// let contentsOfURL = bundleURL.appendingPathComponent(plistName)
+		guard let contents = NSDictionary(contentsOfURL: (bundleURL.appendingPathComponent(plistName)! as! NSURL))
 			else { return [:] }
 		
 		// Collect default values
@@ -50,10 +51,10 @@ public extension Bundle {
 	- returns: dictionary of values
 	*/
 	public static func contentsOfFile(bundleName: String, plistName: String = "Root.plist") -> [String : AnyObject] {
-		guard let bundleURL = Bundle.mainBundle().URLForResource(bundleName, withExtension: "bundle")
+		guard let bundleURL = Bundle.main.url(forResource: bundleName, withExtension: "bundle")
 			else { return [:] }
 		
-		return contentsOfFile(bundleURL: bundleURL, plistName: plistName)
+		return contentsOfFile(bundleURL: bundleURL as NSURL, plistName: plistName)
 	}
 	
 	/**
@@ -66,10 +67,10 @@ public extension Bundle {
 	- returns: dictionary of values
 	*/
 	public static func contentsOfFile(bundle: Bundle, bundleName: String = "Settings", plistName: String = "Root.plist") -> [String : AnyObject] {
-		guard let bundleURL = bundle.URLForResource(bundleName, withExtension: "bundle")
+		guard let bundleURL = bundle.url(forResource: bundleName, withExtension: "bundle")
 			else { return [:] }
 		
-		return contentsOfFile(bundleURL: bundleURL, plistName: plistName)
+		return contentsOfFile(bundleURL: bundleURL as NSURL, plistName: plistName)
 	}
 	
 }
