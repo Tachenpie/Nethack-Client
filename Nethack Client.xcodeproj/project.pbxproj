@@ -13,18 +13,18 @@
 		4F0CC1001F141D91003BFC67 /* SSHConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F21F141D91003BFC67 /* SSHConnection.swift */; };
 		4F0CC1011F141D91003BFC67 /* Bookmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F31F141D91003BFC67 /* Bookmarks.swift */; };
 		4F0CC1021F141D91003BFC67 /* BookmarkEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F41F141D91003BFC67 /* BookmarkEntry.swift */; };
-		4F0CC1041F141D91003BFC67 /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F61F141D91003BFC67 /* NSBundle.swift */; };
 		4F0CC1051F141D91003BFC67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F71F141D91003BFC67 /* Constants.swift */; };
-		4F0CC1061F141D91003BFC67 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F81F141D91003BFC67 /* BookmarkCell.swift */; };
-		4F0CC1071F141D91003BFC67 /* BookmarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0CC0F91F141D91003BFC67 /* BookmarkCell.xib */; };
-		4F0CC1081F141D91003BFC67 /* LocalVariantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0FA1F141D91003BFC67 /* LocalVariantsCell.swift */; };
-		4F0CC1091F141D91003BFC67 /* LocalGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0CC0FB1F141D91003BFC67 /* LocalGameCell.xib */; };
-		4F0CC10A1F141D91003BFC67 /* LocalGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC0FC1F141D91003BFC67 /* LocalGameCell.swift */; };
 		4F0CC10E1F142137003BFC67 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CC10D1F142137003BFC67 /* README.md */; };
+		4F6D43EE1F1D9E0B00AD1522 /* ServerInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D43ED1F1D9E0B00AD1522 /* ServerInfoVC.swift */; };
+		4F6D43F11F1D9E2200AD1522 /* ServerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D43EF1F1D9E2200AD1522 /* ServerListVC.swift */; };
+		4F6D43F81F1DB27900AD1522 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D43F71F1DB27900AD1522 /* MapVC.swift */; };
+		4F6D43FB1F1DB28700AD1522 /* InventoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D43F91F1DB28700AD1522 /* InventoryVC.swift */; };
+		4F6D43FF1F1DB29100AD1522 /* StatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D43FD1F1DB29100AD1522 /* StatusVC.swift */; };
 		4FD53C471F141CBF001BA267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD53C461F141CBF001BA267 /* AppDelegate.swift */; };
-		4FD53C491F141CBF001BA267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD53C481F141CBF001BA267 /* ViewController.swift */; };
 		4FD53C4B1F141CBF001BA267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD53C4A1F141CBF001BA267 /* Assets.xcassets */; };
 		4FD53C4E1F141CBF001BA267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD53C4C1F141CBF001BA267 /* Main.storyboard */; };
+		4FE0D4D91F1D0F2900926D56 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0D4D81F1D0F2900926D56 /* FontAwesome.otf */; };
+		4FE0D4DC1F1D121C00926D56 /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0D4DB1F1D121C00926D56 /* NSButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,20 +34,20 @@
 		4F0CC0F21F141D91003BFC67 /* SSHConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHConnection.swift; sourceTree = "<group>"; };
 		4F0CC0F31F141D91003BFC67 /* Bookmarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookmarks.swift; sourceTree = "<group>"; };
 		4F0CC0F41F141D91003BFC67 /* BookmarkEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkEntry.swift; sourceTree = "<group>"; };
-		4F0CC0F61F141D91003BFC67 /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
 		4F0CC0F71F141D91003BFC67 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4F0CC0F81F141D91003BFC67 /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
-		4F0CC0F91F141D91003BFC67 /* BookmarkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarkCell.xib; sourceTree = "<group>"; };
-		4F0CC0FA1F141D91003BFC67 /* LocalVariantsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalVariantsCell.swift; sourceTree = "<group>"; };
-		4F0CC0FB1F141D91003BFC67 /* LocalGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalGameCell.xib; sourceTree = "<group>"; };
-		4F0CC0FC1F141D91003BFC67 /* LocalGameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalGameCell.swift; sourceTree = "<group>"; };
 		4F0CC10D1F142137003BFC67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F6D43ED1F1D9E0B00AD1522 /* ServerInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerInfoVC.swift; sourceTree = "<group>"; };
+		4F6D43EF1F1D9E2200AD1522 /* ServerListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerListVC.swift; sourceTree = "<group>"; };
+		4F6D43F71F1DB27900AD1522 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		4F6D43F91F1DB28700AD1522 /* InventoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryVC.swift; sourceTree = "<group>"; };
+		4F6D43FD1F1DB29100AD1522 /* StatusVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusVC.swift; sourceTree = "<group>"; };
 		4FD53C431F141CBF001BA267 /* Nethack Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nethack Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD53C461F141CBF001BA267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FD53C481F141CBF001BA267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FD53C4A1F141CBF001BA267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD53C4D1F141CBF001BA267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FD53C4F1F141CBF001BA267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE0D4D81F1D0F2900926D56 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		4FE0D4DB1F1D121C00926D56 /* NSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,6 @@
 		4F0CC0E71F141D1E003BFC67 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4F0CC0F81F141D91003BFC67 /* BookmarkCell.swift */,
-				4F0CC0FC1F141D91003BFC67 /* LocalGameCell.swift */,
-				4F0CC0FA1F141D91003BFC67 /* LocalVariantsCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -102,6 +99,11 @@
 			children = (
 				4F0CC0F11F141D91003BFC67 /* ConnectionVC.swift */,
 				4F0CC0F01F141D91003BFC67 /* GameVC.swift */,
+				4F6D43ED1F1D9E0B00AD1522 /* ServerInfoVC.swift */,
+				4F6D43EF1F1D9E2200AD1522 /* ServerListVC.swift */,
+				4F6D43F71F1DB27900AD1522 /* MapVC.swift */,
+				4F6D43F91F1DB28700AD1522 /* InventoryVC.swift */,
+				4F6D43FD1F1DB29100AD1522 /* StatusVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -109,8 +111,6 @@
 		4F0CC0ED1F141D76003BFC67 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				4F0CC0F91F141D91003BFC67 /* BookmarkCell.xib */,
-				4F0CC0FB1F141D91003BFC67 /* LocalGameCell.xib */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 		4F0CC0EE1F141D7F003BFC67 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4F0CC0F61F141D91003BFC67 /* NSBundle.swift */,
+				4FE0D4DB1F1D121C00926D56 /* NSButton.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -150,13 +150,21 @@
 				4F0CC0EA1F141D61003BFC67 /* Services */,
 				4F0CC0E91F141D2E003BFC67 /* Utilities */,
 				4F0CC0E71F141D1E003BFC67 /* Views */,
+				4FE0D4DA1F1D0F2C00926D56 /* Files */,
 				4FD53C461F141CBF001BA267 /* AppDelegate.swift */,
-				4FD53C481F141CBF001BA267 /* ViewController.swift */,
 				4FD53C4A1F141CBF001BA267 /* Assets.xcassets */,
 				4FD53C4C1F141CBF001BA267 /* Main.storyboard */,
 				4FD53C4F1F141CBF001BA267 /* Info.plist */,
 			);
 			path = "Nethack Client";
+			sourceTree = "<group>";
+		};
+		4FE0D4DA1F1D0F2C00926D56 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE0D4D81F1D0F2900926D56 /* FontAwesome.otf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,10 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0CC1091F141D91003BFC67 /* LocalGameCell.xib in Resources */,
+				4FE0D4D91F1D0F2900926D56 /* FontAwesome.otf in Resources */,
 				4FD53C4B1F141CBF001BA267 /* Assets.xcassets in Resources */,
 				4FD53C4E1F141CBF001BA267 /* Main.storyboard in Resources */,
-				4F0CC1071F141D91003BFC67 /* BookmarkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,20 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD53C491F141CBF001BA267 /* ViewController.swift in Sources */,
 				4F0CC1011F141D91003BFC67 /* Bookmarks.swift in Sources */,
 				4F0CC0FD1F141D91003BFC67 /* LocalVariants.swift in Sources */,
+				4F6D43F81F1DB27900AD1522 /* MapVC.swift in Sources */,
 				4F0CC0FE1F141D91003BFC67 /* GameVC.swift in Sources */,
 				4FD53C471F141CBF001BA267 /* AppDelegate.swift in Sources */,
-				4F0CC1081F141D91003BFC67 /* LocalVariantsCell.swift in Sources */,
+				4F6D43EE1F1D9E0B00AD1522 /* ServerInfoVC.swift in Sources */,
+				4F6D43F11F1D9E2200AD1522 /* ServerListVC.swift in Sources */,
+				4F6D43FF1F1DB29100AD1522 /* StatusVC.swift in Sources */,
 				4F0CC1051F141D91003BFC67 /* Constants.swift in Sources */,
 				4F0CC1001F141D91003BFC67 /* SSHConnection.swift in Sources */,
-				4F0CC10A1F141D91003BFC67 /* LocalGameCell.swift in Sources */,
-				4F0CC1041F141D91003BFC67 /* NSBundle.swift in Sources */,
-				4F0CC1061F141D91003BFC67 /* BookmarkCell.swift in Sources */,
 				4F0CC10E1F142137003BFC67 /* README.md in Sources */,
 				4F0CC1021F141D91003BFC67 /* BookmarkEntry.swift in Sources */,
+				4FE0D4DC1F1D121C00926D56 /* NSButton.swift in Sources */,
 				4F0CC0FF1F141D91003BFC67 /* ConnectionVC.swift in Sources */,
+				4F6D43FB1F1DB28700AD1522 /* InventoryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

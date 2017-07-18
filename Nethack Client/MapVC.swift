@@ -1,14 +1,14 @@
 //
-//  LocalGameCell.swift
-//  Nethack Client 1
+//  MapVC.swift
+//  Nethack Client
 //
-//  Created by Noah Dowd on 7/7/17.
+//  Created by Noah Dowd on 7/17/17.
 //  Copyright © 2017 Eigengrau. All rights reserved.
 //
 
 import Cocoa
 
-class LocalGameCell: NSCollectionViewItem {
+class MapVC: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

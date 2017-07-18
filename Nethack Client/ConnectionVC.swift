@@ -11,29 +11,23 @@ import Cocoa
 class ConnectionVC: NSViewController {
 
 	// Outlets
-	@IBOutlet weak var protocolComboBox: NSComboBox!
-	@IBOutlet weak var serverText: NSTextField!
-	@IBOutlet weak var usernameText: NSTextField!
-	@IBOutlet weak var passwordSecureText: NSSecureTextField!
-	@IBOutlet weak var notesTextField: NSTextField!
-	@IBOutlet weak var bookmarkButton: NSButton!
-	@IBOutlet weak var connectButton: NSButton!
-	@IBOutlet weak var localGamesTableView: NSTableView!
-	@IBOutlet weak var leftPaneView: NSView!
-	@IBOutlet weak var rightPaneView: NSView!
+
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 	}
 
-	override func viewDidAppear() {
-		leftPaneView.layer?.backgroundColor = CGColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 1.00)
-		rightPaneView.layer?.backgroundColor = CGColor(red: 0.48, green: 0.48, blue: 0.50, alpha: 1.00)
+	override func viewWillAppear() {
+		setupView()
+	}
+	
+	func setupView() {
+		view.wantsLayer = true
+		view.layer?.backgroundColor = NSColor.white.cgColor
 	}
 	
 	override var representedObject: Any? {
 		didSet {
-		// Update the view, if already loaded.
 		}
 	}
 

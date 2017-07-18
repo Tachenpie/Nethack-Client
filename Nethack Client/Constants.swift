@@ -9,3 +9,7 @@
 import Foundation
 
 let BOOKMARKS_PLIST_FILE = NSHomeDirectory() + "/Library/Application Support/Nethack Client 1/Bookmarks.plist"
+
+// Fonts
+let AVENIR_REGULAR = "AvenirNext-Regular"
+let AVENIR_BOLD = "AvenirNext-Bold"
